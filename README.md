@@ -19,6 +19,7 @@ This project implements a version of the normalized spectral clustering algorith
 2. **Run the Program:**
    ```bash
    python spkmeans.py <k> <goal> <filename>
+
 -k: Number of clusters (if 0, use eigengap heuristic).
 -goal: Choose from spk, wam, ddg, lnorm, or jacobi.
 -filename: Path to the file containing N observations (.txt or .csv).
